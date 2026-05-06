@@ -1,3 +1,17 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # testtargets
 
@@ -20,14 +34,14 @@ You can install the development version of testtargets like so:
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r}
+```{r example}
 library(testtargets)
 ## basic example code
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
-```{r}
+```{r cars}
 summary(cars)
 ```
 
@@ -35,7 +49,7 @@ You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-da
 
 You can also embed plots, for example:
 
-```{r}
+```{r pressure, echo = FALSE}
 plot(pressure)
 ```
 
