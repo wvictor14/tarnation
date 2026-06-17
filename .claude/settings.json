@@ -8,7 +8,7 @@
             "Bash(air format:*)",
             "Edit(R/**)",
             "Edit(tests/**)",
-            "Edit(vignettes/**)",
+            "Edit(vignettes/**)"
         ],
         "deny": []
     }
